@@ -58,4 +58,4 @@ SEO lässt sich in zwei Hauptkategorien unterteilen:
 
 
 SEO für Webentwickler
-- Crawlbarkeit: Eine gut strukturierte HTML-Seite ermöglicht es Suchmaschinen, den Inhalt effizient zu „crawlen“ und korrekt zu indexieren.
+- Crawler: Eine gut strukturierte HTML-Seite ermöglicht es Suchmaschinen, den Inhalt effizient zu „crawlen“ und korrekt zu indexieren.
