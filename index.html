@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/black.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+
+				<section>
+					<h2 class="r-fit-text">SEO</h2>
+					<h2 class="r-fit-text">Search Enginge Optimization</h2>
+				</section>
+				<section>
+					<h3>Was ist SEO?</h3>
+					<p>organische Auffindbarkeit von Websites in Suchmaschinen verbessern</p>
+					<p>Fokus hauptsächlich auf Google-Suche</p>
+					<p>Suchmaschinen unerlässlich zur Kundenakquise im Netz </p>
+				</section>
+				<section>
+					<h2>wichtige Kennzahlen</h2>
+					<p>Click-Through-Rate</p>
+					<p>Bounce-Rate</p>
+					<p>Durchschnittliche Sitzungsdauer</p>
+					<p>Anzahl der Backlinks</p>
+				</section>
+				<section>
+					<h3>SEO aus Unternehmenssicht</h3>
+					<p>Keyword-Recherche</p>
+					<p>Onepage-Optimierung</p>
+					<p>Optimierung technischer, struktureller und inhaltlicher Elemente</p>
+					<p>Offpage-Optimierung</p>
+					<p>Optimierung von Linkbuilding</p>
+				</section>
+				<section>
+					<h3>SEO aus Webentwicklersicht</h3>
+					<p>Der Googlebot</p>
+					<section data-markdown>
+						<textarea data-template>
+							``` html [1-3|6-8]
+							<a href="https://example.com">
+
+							<a href="/products/category/shoes" class="pretty">
+
+
+							<span href="https://example.com">
+
+							<a routerLink="products/category">
+							```
+						</textarea>
+					</section>
+				</section>
+				<section>
+					<p>Text to Code Ratio</p>
+				<section data-markdown>
+					<textarea data-template>
+						```html [1|2]
+						<div><p><span>Text</span></p></div>;
+
+						<p>Text</p>;
+						```
+					</textarea>
+				</section>
+				</section>
+				<section>
+					<h2>Quellen</h2>
+					<p>https://academy.technikum-wien.at/ratgeber/was-ist-seo/<p>
+					<p>https://omr.com/de/daily/glossary/seo-suchmaschinenoptimierung<p>
+					<p>https://www.evergreen.media/ratgeber/onpage-optimierung/</p>
+					<p>https://www.evergreen.media/ratgeber/offpage-optimierung/</p>
+					<p>https://www.sistrix.de/frag-sistrix/technisches-seo/html/</p>
+					<p>https://www.abakus-internet-marketing.de/wissen/seo-leitfaden/seo-consulting/seo-grundlagen-html-coding</p>
+					<p>https://developers.google.com/search/docs/crawling-indexing/links-crawlable?hl=de#crawlable-links</p>
+				</section>
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
