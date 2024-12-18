@@ -12,6 +12,32 @@
 
 		<!-- Theme used for syntax highlighted code -->
 		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+
+		<style>
+        /* Flexbox für Slides */
+        .reveal .slides {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px; /* Abstand zwischen Elementen */
+            justify-content: space-evenly; /* Gleichmäßige Verteilung mit Abständen */
+            align-items: stretch; /* Alle Elemente erhalten gleiche Höhe */
+            height: 100vh; /* Passt die Höhe an die Bildschirmgröße an */
+        }
+
+        .reveal .slides section {
+            flex: 1 1 20%; /* Flexibler Startwert: 20% der Breite */
+            margin: 5px; /* Außenabstand */
+            padding: 10px; /* Innenabstand */
+            background-color: #1a1a1a;
+            border-radius: 8px; /* Abgerundete Ecken */
+            display: flex;
+            flex-direction: column;
+            justify-content: center; /* Zentrierter Inhalt */
+            align-items: center;
+            text-align: center; /* Zentrierter Text */
+            min-height: 100px; /* Mindestsicherheitshöhe für kleine Bildschirme */
+        }
+    </style>
 	</head>
 	<body>
 		<div class="reveal">
